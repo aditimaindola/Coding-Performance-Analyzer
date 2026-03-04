@@ -1,10 +1,24 @@
-# AI Coding Performance Analyzer
+# 🚀 Coding Performance Analyzer
 
-This project analyzes a user's Codeforces performance using ML.
+An AI-powered Codeforces performance analysis dashboard built with Streamlit.
 
-Features:
+## Features
 
-- Fetches live submission data from Codeforces API
-- Performs topic-level feature engineering
-- Predicts weak topics using Random Forest
-- Displays results in a Streamlit dashboard
+- Profile Overview (Rating, Max Rating, Rank)
+- Rating Growth Chart (Year & Month Filter)
+- LeetCode-style 30-Day Activity Heatmap
+- Topic Strength Analysis (ML Powered)
+- Clean UI with Dark/Light Mode
+
+## Tech Stack
+
+- Python
+- Streamlit
+- Plotly
+- Scikit-learn
+- Codeforces API
+
+## How to Run
+
+pip install -r requirements.txt
+streamlit run app.py
